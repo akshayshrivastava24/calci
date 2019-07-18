@@ -1,6 +1,6 @@
 if [ $param == "A" ]
 then
-	mv index.html /var/www/html
+	cat index.html > /var/wwww/html/index.html
 elif [ $param == "B" ]
 then
 	mv B.html /var/www/html
