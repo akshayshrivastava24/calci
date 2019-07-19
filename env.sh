@@ -3,7 +3,7 @@ echo  $param
 echo "AAAAAAA"
 if [ "$param" == "A" ]
 then
-	 cat index.html > /var/www/html/index.html
+	 sudo cat index.html > /var/www/html/index.html
 	 echo "A"
 elif [ "$param" == "B" ]
 then
