@@ -1,6 +1,6 @@
 if [ $param == "A" ]
 then
-	sudo cat index.html > /var/www/html/index.html
+	 cat index.html > /var/www/html/index.html
 elif [ $param == "B" ]
 then
 	mv B.html /var/www/html
