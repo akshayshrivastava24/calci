@@ -1,7 +1,6 @@
 #!/bin/bash
 echo  $param
-echo "AAAAAAA"
-touch   
+echo "AAAAAAA"   
 if [ "$param" == "A" ]
 then
 	 sudo scp index.html /var/www/html/index.html
