@@ -7,7 +7,7 @@ then
 	sudo scp B.html /var/www/html/index.html
 elif [ "$param" == "C" ]
 then
-	sudo C.html /var/www/html/index.html
+	sudo scp C.html /var/www/html/index.html
 fi
 
 
