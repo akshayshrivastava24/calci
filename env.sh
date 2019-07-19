@@ -1,5 +1,6 @@
 #!/bin/bash
 echo  $param
+echo "AAAAAAA"
 if [ "$param" == "A" ]
 then
 	 cat index.html > /var/www/html/index.html
