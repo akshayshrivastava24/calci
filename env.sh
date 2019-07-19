@@ -1,18 +1,13 @@
-#!/bin/bash
-echo  $param
-echo "AAAAAAA"   
+#!/bin/bash   
 if [ "$param" == "A" ]
 then
 	 sudo scp index.html /var/www/html/index.html
-	 echo "A"
 elif [ "$param" == "B" ]
 then
-	mv B.html /var/www/html
-	echo "B"
+	sudo scp B.html /var/www/html/index.html
 elif [ "$param" == "C" ]
 then
-	mv C.html /var/www/html
-	echo "C"
+	sudo C.html /var/www/html/index.html
 fi
 
 
