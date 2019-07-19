@@ -1,9 +1,10 @@
 #!/bin/bash
 echo  $param
 echo "AAAAAAA"
+touch   
 if [ "$param" == "A" ]
 then
-	 sudo cat index.html > /var/www/html/index.html
+	 sudo scp index.html /var/www/html/index.html
 	 echo "A"
 elif [ "$param" == "B" ]
 then
