@@ -1,4 +1,4 @@
-if [ $param == "A" ]
+if [ "$param" == "A" ]
 then
 	 cat index.html > /var/www/html/index.html
 elif [ $param == "B" ]
