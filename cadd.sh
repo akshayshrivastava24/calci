@@ -1,2 +1,2 @@
 
-echo ${params.a}+${params.b} | bc
+echo "$a+$b | bc"
