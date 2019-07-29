@@ -1,2 +1,2 @@
 
-echo "$a+$b | bc"
+echo $a + $b | bc
